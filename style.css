@@ -1,0 +1,105 @@
+*{
+    font-family:Source Sans Pro,sans-serif;
+    font-size:25px;
+}
+
+.sudoku{
+    display: flex;
+    flex-direction: Column;
+    align-items: center;
+    margin: 70px;
+
+}
+.buttons{
+    display: flex;
+    justify-content:space-around;
+    margin: 15px;
+    flex-flow: row wrap;
+}
+.button{
+    display: block;
+    padding:5px 10px;
+    width: 120px;
+    font-size: 25px;
+    margin:15px 100px;
+    font-weight: bold;
+    text-align: center;
+    border:none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.button:focus{
+    border:2px solid #C1D6F6;
+}
+.button2{
+    padding:5px 10px;
+    width: 120px;
+    font-size: 25px;
+    margin:20px 80px;
+    text-align: center;
+    border:none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.button2:focus{
+    border:2px solid #C1D6F6;
+}
+.board{
+    margin: auto;
+    justify-content: center;
+    border: 3px solid #344861;
+    border-Collapse: Collapse;
+    border-spacing:0;
+}
+.cell{
+    border:2px solid #bec6d4;
+    height: 60px;
+    width: 60px;
+    padding: 0;
+    text-align: center;
+   
+}
+input{
+    height:inherit;
+    width:inherit;
+    text-align: center;
+    margin:0;
+    font-size: 25px;
+    border: none;
+    outline: none;
+
+}
+.border-right{
+    border-right: 3px solid #344861;
+}
+.border-bottom{
+    border-bottom: 3px solid #344861;
+}
+
+.disable{
+    background-Color:rgba(211, 211, 211, 0.308);
+}
+
+.highlight{
+    background-Color: rgba(14, 97, 133, 0.164);
+}
+.input-text:hover{
+    background-Color: rgb(138, 211, 248);
+    Color:black;
+}
+
+.current-cell {
+    background-Color: rgba(97, 199, 240, 0.829) ;
+
+}
+
+.incorrect{
+    Color:red;
+}
+.instance{
+    /* background-image: linear-gradient(to right, aqua,rgb(28, 166, 201)); */
+    /* background-image: linear-gradient(to right, rgb(214, 126, 126),rgb(233, 189, 183)); */
+    background-Color: rgb(233, 189, 183);
+}
+
